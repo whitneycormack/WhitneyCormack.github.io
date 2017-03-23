@@ -27,7 +27,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #63635d;
+  color: #eb3812;
 }
 h1,
 h2,
@@ -43,7 +43,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #63635d;
+  background-color: #F05F40;
 }
 .bg-dark {
   background-color: #222222;
@@ -77,7 +77,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #63635d;
+  color: #eb3812;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -130,12 +130,12 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #f2b1b9;
+    color: #F05F40;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #63635d;
+    color: #eb3812;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -143,7 +143,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #f2b1b9;
+    color: #F05F40;
   }
 }
 header {
@@ -155,7 +155,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/whit-pinkshirt.jpg');
   text-align: center;
   color: white;
 }
@@ -302,7 +302,7 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #222222;
-  background-color: #63635d;
+  background-color: #f2f2f2;
   border-color: #ededed;
 }
 .btn-default:active,
@@ -337,8 +337,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #63635d;
-  border-color: #63635d;
+  background-color: #F05F40;
+  border-color: #F05F40;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -414,3 +414,33 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+#tech-img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+
+.tech-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 100px;
+  margin-bottom: 20px;
+}
+
+
+#technologies {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  margin-bottom: 2%;
+}
+
+.tech-container {
+  padding-right: 230px;
+}
+
+
+
+
